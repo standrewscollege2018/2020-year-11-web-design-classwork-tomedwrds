@@ -18,8 +18,20 @@ body {
 h1 {
   color: green;
   font-family: Arial, Calibri,sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 4px;
+}
+h2 {
+  margin-bottom: 8px;
 }
 
+ul {
+  margin-left: 25px;
+
+}
 /* Formatting links */
 a {
   color: rgb(255, 0, 0);
