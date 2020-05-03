@@ -1,11 +1,15 @@
 /* Grid Styles */
 
 /* Banner styles */
+
 .banner {
   display: grid;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 20px;
 
 }
+
+
 
 .logo {
   background-color: blue;
@@ -14,5 +18,35 @@
 
 .navbar {
   padding: 20px;
+  background-color: red;
+  text-align: right;
+
+}
+
+/* Format cards */
+.content-container {
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 20px;
+
+}
+
+.card {
+  margin-top: 20px;
+  border: 1px solid red;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+/* Dealing with images in the cards */
+.card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card > p {
+  margin-left: 10px;
 
 }

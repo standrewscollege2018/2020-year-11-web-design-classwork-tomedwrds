@@ -6,10 +6,6 @@
 	src: url("DearSunshine.ttf");
 }
 
-@font-face {
-	font-family: "CoolFont2";
-	src: url("coolfont2.ttf");
-}
 
 /* Set all padding and margin to 0 */
 * {
@@ -30,15 +26,16 @@ h1 {
   color: #ffffff;
   font-family: TitleFont;
 	font-size: 60px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+
+}
+
+h2 {
+	margin-bottom: 6px;
+
 }
 p {
   margin-bottom: 4px;
-	font-family: CoolFont;
-}
-h2 {
-  margin-top: 15px;
+
 }
 
 ul {
@@ -47,16 +44,48 @@ ul {
 }
 /* Formatting links */
 a {
-	color: #c1c9c4;
+	color: #1fb8a6;
   text-decoration: none;
 	font-weight: bolder;
+
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.List_Title {
 
-	margin-top: 15px;
+/* Put the content into a grid */
+
+.content-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Format the parts of the grid */
+.sidebar-container {
+
+	margin-right: 20px;
+}
+
+/* Format the list on the sidebar */
+.list-container {
+	margin: 10px 0px;
+}
+
+.list-container > p {
+	margin-bottom: 8px;
+}
+
+.country-description {
+	margin-bottom: 16px;
+}
+
+
+
+.title {
+	text-align: center;
 }
