@@ -2,8 +2,8 @@
 
 /* Add a cool font */
 @font-face {
-	font-family: "CoolFont";
-	src: url("corona.ttf");
+	font-family: "TitleFont";
+	src: url("DearSunshine.ttf");
 }
 
 @font-face {
@@ -20,53 +20,43 @@
 /* Set the background colour */
 
 body {
-  background-color: yellow;
-  color: white;
+  background-color: #242582;
+  color: #ffffff;
 
 }
 
 /* Set h1 tag */
 h1 {
-  color: green;
-  font-family: Arial, Calibri,sans-serif;
+  color: #ffffff;
+  font-family: TitleFont;
+	font-size: 60px;
   margin-top: 15px;
   margin-bottom: 15px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 p {
   margin-bottom: 4px;
 	font-family: CoolFont;
-	color: pink;
 }
 h2 {
-  margin-bottom: 8px;
-	background-color: brown;
+  margin-top: 15px;
 }
 
 ul {
   margin-left: 25px;
-	color: blue;
 
 }
 /* Formatting links */
 a {
-  color: rgb(255, 0, 0);
+	color: #c1c9c4;
   text-decoration: none;
-	font-family: coolfont2;
+	font-weight: bolder;
 }
 
 a:hover {
   text-decoration: underline;
-	margin-left: 150px;
 }
 
-img {
-	margin: 69px;
-	border-radius: 50%;
+.List_Title {
 
-}
-.large{
-	font-size: 20px;
-	font-weight: 900;
-
+	margin-top: 15px;
 }

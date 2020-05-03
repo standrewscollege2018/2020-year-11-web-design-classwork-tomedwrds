@@ -1,0 +1,18 @@
+/* Grid Styles */
+
+/* Banner styles */
+.banner {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+
+}
+
+.logo {
+  background-color: blue;
+  padding: 20px;
+}
+
+.navbar {
+  padding: 20px;
+
+}
