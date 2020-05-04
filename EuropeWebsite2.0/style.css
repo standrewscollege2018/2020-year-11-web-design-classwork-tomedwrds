@@ -69,6 +69,7 @@ a:hover {
 .sidebar-container {
 
 	margin-right: 20px;
+	margin-left: 10px;
 }
 
 /* Format the list on the sidebar */
@@ -85,7 +86,58 @@ a:hover {
 }
 
 
-
 .title {
 	text-align: center;
+}
+
+/* Country page formating */
+
+/* Format the top of the page */
+.page-info-container {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+
+}
+
+.page-info-container  > p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+
+
+
+
+/*Format the cards into a grid*/
+.country-content-container {
+	display: grid;
+  grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 20px;
+
+}
+
+/* Make the cards look nice*/
+.cards {
+	font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  border: 1px solid white;
+	border-radius: 20px;
+	overflow: hidden;
+
+}
+
+/* Dealing with images in the cards */
+.cards > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cards > p {
+  margin-left: 10px;
+
+}
+.cards > h2 {
+  margin-left: 10px;
+
 }

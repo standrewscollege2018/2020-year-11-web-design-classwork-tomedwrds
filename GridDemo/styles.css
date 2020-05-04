@@ -6,6 +6,9 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 20px;
+  position: sticky;
+  top: 0;
+  margin-bottom: 20px;
 
 }
 
@@ -28,15 +31,15 @@
 
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-column-gap: 20px;
+  grid-gap: 20px;
 
 }
 
 .card {
-  margin-top: 20px;
   border: 1px solid red;
   border-radius: 20px;
   overflow: hidden;
+  height: 200px;
 
 }
 
