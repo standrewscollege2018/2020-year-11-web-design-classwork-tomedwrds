@@ -18,10 +18,12 @@
       $student_query = mysqli_query($dbconnect,$student_sql);
       $student_aa = mysqli_fetch_assoc($student_query);
 
+
       do
       {
         echo '<b> ID: </b>'.$student_aa['studentID'].'<b> Name: </b>'. $student_aa['firstname'] . ' '. $student_aa['lastname'] . '<br>';
       } while($student_aa = mysqli_fetch_assoc($student_query));
+
      ?>
   </body>
 </html>
