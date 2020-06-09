@@ -1,0 +1,92 @@
+/* Set all padding and margin to 0 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+  background-color: blue;
+}
+
+.content-container {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-bar {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+	grid-template-columns: 1fr auto 1fr;
+
+}
+
+.links {
+  grid-column: 2;
+
+}
+
+.links p {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.content-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  margin-bottom: 50px;
+
+}
+
+.main-content {
+  grid-column: span 2;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.main-content p {
+  font-family: Calibri, sans serif;
+  margin-bottom: 10px;
+
+}
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.side-bar {
+	font-family: Calibri, sans serif;
+}
+
+.side-bar h1 {
+	font-size: 24px;
+	color: blue;
+	margin-bottom: 5px;
+}
+.side-bar h2 {
+	font-size: 20px;
+	color: blue;
+}
+
+
+
+
+.footer {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+	grid-template-columns: 1fr auto 1fr;
+  background-color: grey;
+
+}
+
+.icons {
+  grid-column: 2;
+
+}
